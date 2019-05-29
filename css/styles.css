@@ -1,0 +1,96 @@
+/* Color Palette 
+rgba(45, 49, 66, 1);     - gunmetal
+rgba(191, 192, 192, 1);  - silver
+rgba(255, 255, 255, 1);  - white
+rgba(239, 131, 84, 1);   - light red ochre
+rgba(79, 93, 117, 1);    - black coral
+*/
+
+/* Global styles
+---------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+    margin-top: 0; 
+}
+h1, h2 {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 400;
+}
+a {
+    color: rgba(239, 131, 84, 1);
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 3em;
+    overflow: auto;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+.col-wide {
+    width:70%;
+    float: left;
+    padding-left: 2em;
+}
+
+/* Header and Footer
+---------------------*/
+header, footer {
+    background: rgba(45, 49, 66, 1);
+    color: rgba(191, 192, 192, 1);
+}
+/* header */
+header h1, header h2 {
+    color: white;
+    margin: 0;
+}
+.profile-image {
+    border-radius: 50%;
+}
+/*footer*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+    background: white;
+    padding: .5em;
+    display: inline-block;
+}
+
+/* Education 
+---------------------*/
+.education {
+    background: rgba(191, 192, 192, 1);
+}
+
+
+/* Projects
+---------------------*/
+.projects {
+    background: rgba(79, 93, 117, 1);
+    color: rgba(191, 192, 192, 1);
+}
+
+/* Experience
+---------------------*/
+.experience {
+    background: rgba(191, 192, 192, 1);
+}
