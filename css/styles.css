@@ -25,6 +25,9 @@ h2{
     font-size: 2em;
     margin-top: 0; 
 }
+h3 {
+    margin: 0;
+}
 h1, h2 {
     font-family: 'Fugaz One', cursive;
     font-weight: 400;
@@ -93,4 +96,7 @@ footer {
 ---------------------*/
 .experience {
     background: rgba(191, 192, 192, 1);
+}
+h3 ~ p {
+    margin: 0;
 }
