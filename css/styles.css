@@ -53,7 +53,9 @@ a:hover {
     float: left;
     padding-left: 2em;
 }
-
+ .uppercase {
+    text-transform: uppercase;
+}
 /* Header and Footer
 ---------------------*/
 header, footer {
