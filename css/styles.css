@@ -102,3 +102,6 @@ footer {
 h3 ~ p {
     margin: 0;
 }
+.description p:first-of-type {
+    margin: 0;
+}
