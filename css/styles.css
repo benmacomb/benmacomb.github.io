@@ -56,6 +56,20 @@ a:hover {
  .uppercase {
     text-transform: uppercase;
 }
+
+/* Navigation 
+---------------------*/
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* Header and Footer
 ---------------------*/
 header, footer {
@@ -70,6 +84,7 @@ header h1, header h2 {
 .profile-image {
     border-radius: 50%;
 }
+
 /*footer*/
 footer {
     text-align: center;
