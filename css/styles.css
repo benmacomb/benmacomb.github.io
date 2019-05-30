@@ -56,7 +56,13 @@ a:hover {
  .uppercase {
     text-transform: uppercase;
 }
-
+.btn {
+    text-decoration: none;
+    background: rgba(239, 131, 84, 1);
+    color: white;
+    padding: 1em;
+    display: inline-block;
+}
 /* Navigation 
 ---------------------*/
 nav {
@@ -77,6 +83,10 @@ header, footer {
     color: rgba(191, 192, 192, 1);
 }
 /* header */
+header {
+    padding-top: 3em;
+    position: relative;
+}
 header h1, header h2 {
     color: white;
     margin: 0;
@@ -84,7 +94,11 @@ header h1, header h2 {
 .profile-image {
     border-radius: 50%;
 }
-
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 /*footer*/
 footer {
     text-align: center;
