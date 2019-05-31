@@ -44,15 +44,6 @@ a:hover {
     padding: 4em 3em;
     overflow: auto;
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-}
-.col-wide {
-    width:70%;
-    float: left;
-    padding-left: 2em;
-}
  .uppercase {
     text-transform: uppercase;
 }
@@ -62,6 +53,9 @@ a:hover {
     color: white;
     padding: 1em;
     display: inline-block;
+}
+.col-narrow {
+    margin-bottom: 1em;
 }
 /* Navigation 
 ---------------------*/
@@ -144,4 +138,27 @@ h3 ~ p {
 }
 .description p:first-of-type {
     margin-top: 0;
+}
+
+/* Media Queries
+----------------------*/
+@media (min-width: 800px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width:70%;
+        float: left;
+        padding-left: 2em;
+    }
+}
+
+@media (max-width: 799px) {
+    header {
+        text-align: center;
+    }
+    .profile-image {
+        width: 200px;
+    }
 }
