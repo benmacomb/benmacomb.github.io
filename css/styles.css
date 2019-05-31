@@ -109,9 +109,10 @@ footer {
     text-align: center;
 }
 .contact-info a {
-    background: white;
+    /* background: white; */
     padding: .5em;
     display: inline-block;
+    font-size: 2em;
 }
 
 /* Education 
