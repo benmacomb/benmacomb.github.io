@@ -118,7 +118,9 @@ footer {
 /* Education 
 ---------------------*/
 .education {
-    background: rgba(191, 192, 192, 1);
+    background: linear-gradient(rgba(191, 192, 192, 0.8), rgba(191, 192, 192, 0.9)),
+                url("../images/bicycle.jpg") no-repeat fixed;
+    background-size: cover;
 }
 
 
